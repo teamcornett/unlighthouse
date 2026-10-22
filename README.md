@@ -128,7 +128,7 @@ Each site has a **Max CSP console violations** threshold:
 
 ## Requirements
 
-- **Node.js 22+**
+- **Node.js 22.23.4+** (Oct 2026 security release floor; see `.nvmrc`)
 - **Google Chrome or Chromium** installed
 
 If Chrome is not on the default path, set:
