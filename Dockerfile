@@ -1,5 +1,6 @@
 # Production-oriented image: Node 22 + Chromium for Lighthouse / Unlighthouse / Puppeteer.
-FROM node:22-bookworm-slim
+# Pin to Oct 2026 security release (https://nodejs.org/en/blog/vulnerability/october-2026-security-releases).
+FROM node:22.23.4-bookworm-slim
 
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
